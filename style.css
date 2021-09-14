@@ -1,14 +1,25 @@
 body {
     background-color:#141414;
     color:lightgray;
+    font-size: 110%;
 }
 
 h1 {
     color:lightskyblue; 
 }
 
+
+
+a {
+    font-size: 115%;
+}
+
 a:link{
     color:hotpink;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 a:visited{
