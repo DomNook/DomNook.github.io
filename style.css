@@ -8,6 +8,10 @@ h1 {
     color:lightskyblue; 
 }
 
+#cattext {
+    color:goldenrod;
+}
+
 a {
     font-size: 115%;
 }
