@@ -13,6 +13,11 @@ h1 {
     color:goldenrod;
 }
 
+.bolditallic {
+    font-weight: bold;
+    font-style: italic;
+}
+
 .linklist {
     background-color:midnightblue;
     width: 300px;
