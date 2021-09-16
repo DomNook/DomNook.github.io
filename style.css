@@ -18,13 +18,46 @@ h1 {
     font-style: italic;
 }
 
+
+.mother {
+    width: auto;
+    text-align: center;
+}
+
 .linklist {
     background-color:midnightblue;
-    width: 300px;
+    text-align: left;
+    width: 250px;
     height: 200px;
-    padding: 2px;
+    padding: 5px;
     border: black solid;
     color:deepskyblue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fontsproject {
+    background-color: mediumslateblue;
+    text-align: left;
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    border: black solid;
+    color: midnightblue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fancyproject {
+    background-color: blue;
+    text-align: left;
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    border: black solid;
+    color: orange;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .aligncenter {
