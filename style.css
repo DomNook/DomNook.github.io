@@ -12,6 +12,10 @@ h1 {
     color:goldenrod;
 }
 
+.input {
+    color: greenyellow;
+}
+
 a {
     font-size: 115%;
 }
