@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    margin: 0px;
+}
+
+#headerback {
+    background-color: darkslateblue;
+    height: 150px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#titlename {
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    text-decoration: none;
+    line-height: 150px;
+}
+
+#titlecontent {
+    font-size: 22px;
+    display: inline;
+    float: right;
+    text-decoration: none;
+    line-height: 150px; 
+}
+
+.spacingsmallhead {
+    padding: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+#mainback {
+    height:1200px;
+    background-color: #141414;
+}
+
+#endback {
+    height: 150px;
+    background-color: indigo;
+}
+
+#contacttext {
+    color: black;
+    font-weight: bold;
+    float: left;
+    display: block;
+    padding-top: 10px;
+    text-align: top;
+    font-size: 22px;
+}
+
+#contactlink {
+    font-size: 18px;
+    float: left bottom;
+    display:block;
+    padding-top: 8px;
+}

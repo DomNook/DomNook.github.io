@@ -4,17 +4,40 @@
         <title>Fancy site</title>
         <meta charset="UTF-8">
         <link rel="icon" href="Dom Nook.ico">
-        <link rel="stylesheet" href="https://domnook.github.io/style.css">
-        <!USE THIS TO TEST IN VSC link rel="stylesheet" href="style.css">
+        <!REMOVE/ADD "!" FROM LINK FUNCTIONS TO TEST IN VSC OR COMMIT>
+        <!link rel="stylesheet" href="https://domnook.github.io/fancystyle.css">
+        <link rel="stylesheet" href="fancystyle.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="canvas.js"></script>
     </head>
 </html>
 
 <html>
-    <body onload="draw();">
-        <center>
-        <canvas id="canvastest" width="1000" height="1000"></canvas>
-        </center>
+    <body>
+        <div id="headerback">
+            <div class="container">
+                <a id="titlename" href="fancy.html">Fancy Page</a> <!SWAP WITH HOMEPAGE LATER>
+                <div id="titlecontent">
+                    <a class="spacingsmallhead" href="index.html">Homepage</a><!SWAP WITH FANCY LATER>
+                    <a class="spacingsmallhead" href="form.html">Forms</a>
+                    <a class="spacingsmallhead" href="canvas.html">Canvas</a>
+                    <a class="spacingsmallhead" href="clock.html">Clock</a>
+                </div>
+            </div>
+        </div>
+        <div id="mainback">
+            <!MAIN GOES HERE>
+        </div>
+        <div id=endback>
+            <div class="container">
+                <!END GOES HERE>
+                <p id="contacttext">
+                    Contact
+                    <br>
+                    <a id="contactlink" href="https://discordapp.com/users/214111240409186304/">Discord</a>
+                    <a id="contactlink" href="https://steamcommunity.com/id/Dom_Nook/">Steam</a>
+                </p>
+
+            </div>
+        </div>
     </body>
 </html>

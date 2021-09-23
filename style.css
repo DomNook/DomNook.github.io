@@ -59,7 +59,7 @@ h1 {
     vertical-align: top;
 }
 
-.fancyproject {
+.canvasproject {
     background-color: blue;
     text-align: left;
     width: 250px;
@@ -79,6 +79,18 @@ h1 {
     padding: 5px;
     border: black solid;
     color: darkgreen;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fancyproject {
+    background-color: yellowgreen;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border: black solid;
+    color: darkred;
     display: inline-block;
     vertical-align: top;
 }
