@@ -1,0 +1,357 @@
+:root{
+    --BaColor : steelblue;
+    --BuColor : midnightblue;
+    --BuHoColor : mediumslateblue;
+}
+
+
+
+/** MAIN COMPONENTS **/
+body {
+    background-color: var(--BaColor);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    background-color: var(--BuColor);
+    border-radius: 25px;
+    padding: 25px 125px;
+    margin: 20px auto;
+    color: white;
+}
+
+.button:hover {
+    background-color: var(--BuHoColor);
+    color: black;
+    cursor: pointer;
+}
+
+.smallbutton {
+    background-color: var(--BuColor);
+    border-radius: 25px;
+    padding: 15px 65px;
+    margin: 20px auto;
+    color: white;
+}
+
+.smallbutton:hover {
+    background-color: var(--BuHoColor);
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    margin: 0 auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+/** REGISTER **/
+.registerForm {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2, 1fr;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.regInput {
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.registerButton {
+    background-color: --BuColor;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    margin: 10px auto;
+}
+
+.registerButton:hover {
+    background-color: --BuHoColor;
+    color: black;
+}
+
+
+
+/** MAIN **/
+.menyButtons {
+    display: grid;
+}
+
+
+
+/** LOGIN **/
+.menyButtons {
+    display: grid;
+}
+
+
+
+/** FRIENDS **/
+.searchBar {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.friend {
+    display: grid;
+    background-color: --BuHoColor;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.friendText {
+    margin: 10px;
+}
+
+.friendButton {
+    background-color: --BuColor;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 5px auto;
+    color: white;
+}
+
+.friendButton:hover {
+    background-color: --BuHoColor;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/** CHAT **/
+.chatName {
+    display: flex;
+    text-align: start;
+}
+
+.profileImage {
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.chat {
+    background-color: white;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.message {
+    background-color: lightskyblue ;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-self: start;
+}
+
+.reply {
+    background-color: rgb(100, 144, 172) ;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-self: end;
+}
+
+.messageForm {
+    display: flex;
+    flex-direction: row;
+}
+
+.messageInput {
+    display: flex;
+    width: 70%;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.messageButton {
+    background-color: --BuColor;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+/** FIND FRIENDS **/
+
+
+
+
+/** EDIT PROFILE **/
+#textinput {
+    width: 350px;
+    height: 150px;
+}
+
+.uploadpic > input {
+    display: none;
+}
+
+.file-input {
+    width:80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+
+/** FRIEND REQUESTS **/
+.request {
+    display: grid;
+    background-color: rgb(102, 169, 245);
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px 0px;
+}
+
+.requestButton {
+    background-color: --BuColor;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 5px auto;
+    color: white;
+}
+
+
+
+/** NEW FRIEND REQUEST **/
+.requestPicture {
+    width: 250px;
+    height: 250px;
+}
+
+.friendRequestButton {
+    background-color: --BuColor;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white
+}
+
+.friendRequestButton:hover {
+    background-color: --BuHoColor;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/** FILTER **/
+.container a {
+    margin: 20px;
+    display: inline-block;
+}
+
+
+
+/** CREATE EVENT **/
+.eventForm {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2, 1fr;
+    width: 400px;
+    margin: 20px auto 0px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.createInput {
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.createButton {
+    background-color: --BuColor;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: white;
+    margin: 10px auto;
+}
+
+.createButton:hover {
+    background-color: --BuHoColor;
+    color: black;
+}
+
+
+
+/** FIND EVENT **/
+.event {
+    display: flex;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: large;
+}
+
+.joinButton {
+    background-color: --BuColor;
+    border-radius: 20px;
+    padding: 25px 40px;
+    color: white;
+    margin: 10px auto;
+}
+
+.joinButton:hover {
+    background-color: --BuHoColor;
+    color: black;
+    cursor: pointer;
+}
+
+/** Bottom navbar override **/
+
+@media screen and (max-width: 700px) {
+    .bottomnavbar {
+        background-color: darkslategray;
+        width: auto;
+        height: 80px;
+    }
+}
